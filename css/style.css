@@ -2035,9 +2035,9 @@ body.dark .header.header-fixed .logo a img.logo-dark {
   text-transform: Capitalize;
 }
 .services .services-box-item-content p {
-  line-height: 23px;
+  line-height: 13px;
   position: relative;
-  margin: 12px 0;
+  margin: 3px 0;
   font-size: 13px;
 }
 .services[data-icon]:before,
