@@ -11,9 +11,9 @@ if (isset($_REQUEST['firstname'],$_REQUEST['email'])) {
 
       
     // Set your email address where you want to receive emails. 
-    $to = 'info@aatautoassist.co.za';
+    $to = 'aman@savaonline.com';
       
-    $subject = 'AAT:  Client Request has been made';
+    $subject = 'SAVA:  Client Request has been made';
     $headers = "From: ".$firstname." <".$email."> (".$phone.") \r\n";
       
     $send_email = mail($to,$subject,$message,$headers);
